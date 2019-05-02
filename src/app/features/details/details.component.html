@@ -1,0 +1,14 @@
+<h5>Mission Details</h5>
+
+<div class="contents">
+  <nea-object-details [neo]="neo"></nea-object-details>
+
+  <nea-observation-details [neo]="neo"></nea-observation-details>
+
+  <button type="button"
+          class="btn btn-primary"
+          (click)="advancedButtonClick.emit(true)"
+          [disabled]="!neo">
+    Advanced...
+  </button>
+</div>

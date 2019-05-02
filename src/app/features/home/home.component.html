@@ -1,0 +1,12 @@
+<nea-filter (filterValueChange)="onFilterChange($event)"></nea-filter>
+
+<nea-list [listItems]="neos"
+          [itemIdAccessor]="getNeoId"
+          [itemNameAccessor]="getNeoName"
+          [loading]="loading"
+          (selectionChange)="onSelectionChange($event)">
+</nea-list>
+
+<nea-details [neo]="neo"
+             (advancedButtonClick)="onAdvancedButtonClick()">
+</nea-details>

@@ -1,0 +1,21 @@
+:host {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'left middle right';
+  grid-gap: 2em;
+}
+
+nea-filter {
+  grid-area: left;
+}
+
+nea-list {
+  grid-area: middle;
+  justify-self: stretch;
+}
+
+nea-details {
+  grid-area: right;
+}

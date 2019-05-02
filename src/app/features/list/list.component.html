@@ -1,0 +1,13 @@
+<h5>Matching NEOs ({{ listItems?.length }})</h5>
+<ul class="list-group">
+  <nea-loader [loading]="loading"></nea-loader>
+  <li *ngFor="let item of listItems"
+      class="list-group-item"
+      (click)="toggleSelection(item)"
+      neaSelectable
+      [selected]="item.selected">
+    <div class="d-flex justify-content-between align-items-center">
+      {{ getItemDisplay(item) }}
+    </div>
+  </li>
+</ul>
