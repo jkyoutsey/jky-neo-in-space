@@ -1,9 +1,9 @@
 import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
-import { NearEarthObject } from 'src/app/nasa-nhats/near-earth-object';
+import { NearEarthObject } from '../../nasa-nhats/near-earth-object';
 import { Router } from '@angular/router';
-import { NasaNhatsRequest } from 'src/app/nasa-nhats/nasa-nhats-request';
-import { NasaNhatsService } from 'src/app/nasa-nhats/nasa-nhats.service';
-import { StateService } from 'src/app/state/state.service';
+import { NasaNhatsRequest } from '../../nasa-nhats/nasa-nhats-request';
+import { NasaNhatsService } from '../../nasa-nhats/nasa-nhats.service';
+import { StateService } from '../../state/state.service';
 
 @Component({
   selector: 'nea-home',

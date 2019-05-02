@@ -1,10 +1,10 @@
 import { Component, OnInit, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
-import { NearEarthObject } from 'src/app/nasa-nhats/near-earth-object';
-import { NasaNhatsRequest } from 'src/app/nasa-nhats/nasa-nhats-request';
-import { StateService } from 'src/app/state/state.service';
+import { NearEarthObject } from '../../nasa-nhats/near-earth-object';
+import { NasaNhatsRequest } from '../../nasa-nhats/nasa-nhats-request';
+import { StateService } from '../../state/state.service';
 import { Router } from '@angular/router';
-import { NasaNhatsService } from 'src/app/nasa-nhats/nasa-nhats.service';
-import { NearEarthObjectDetails } from 'src/app/nasa-nhats/near-earth-object-details';
+import { NasaNhatsService } from '../../nasa-nhats/nasa-nhats.service';
+import { NearEarthObjectDetails } from '../../nasa-nhats/near-earth-object-details';
 
 @Component({
   selector: 'nea-advanced-mission-details',

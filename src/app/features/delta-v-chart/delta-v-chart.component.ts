@@ -1,6 +1,6 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-import { NearEarthObjectDetails } from 'src/app/nasa-nhats/near-earth-object-details';
+import { NearEarthObjectDetails } from '../../nasa-nhats/near-earth-object-details';
 
 @Component({
   selector: 'nea-delta-v-chart',

@@ -1,7 +1,7 @@
 import { Component, OnInit, ChangeDetectionStrategy, OnDestroy, Output, EventEmitter } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { takeWhile } from 'rxjs/operators';
-import { NasaNhatsRequest } from 'src/app/nasa-nhats/nasa-nhats-request';
+import { NasaNhatsRequest } from '../../nasa-nhats/nasa-nhats-request';
 
 @Component({
   selector: 'nea-filter',

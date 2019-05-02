@@ -1,5 +1,5 @@
 import { Component, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
-import { NearEarthObject } from 'src/app/nasa-nhats/near-earth-object';
+import { NearEarthObject } from '../../nasa-nhats/near-earth-object';
 
 @Component({
   selector: 'nea-details',
